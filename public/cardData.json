@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "img": "https://images.pexels.com/photos/403495/pexels-photo-403495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Regular",
+      "text": "This is Regular package",
+      "price": 100
+    },
+    {
+      "id": 1,
+      "img": "https://images.pexels.com/photos/10972243/pexels-photo-10972243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Premium",
+      "text": "This is Premium package",
+      "price": 200
+    },
+    {
+      "id": 1,
+      "img": "https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Ultra Premium",
+      "text": "This is Ultra Premium package",
+      "price": 300
+    }
+  ]
