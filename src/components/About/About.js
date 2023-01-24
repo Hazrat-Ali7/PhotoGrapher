@@ -8,7 +8,8 @@ const About = () => {
             <h2 className='text-center text-danger my-3'>About Me</h2>
 
             <div className='d-flex justify-content-center '>
-                <img className='img-fluid rounded my-5' src={myself} alt="" />
+                <img className='img-fluid rounded my-5 '  style={{width:"20rem"}} src={myself} alt="" />
+
             </div>
 
             <p className='container bg-light '>Hello, I am <span className='text-primary fs-4'><a href="https://www.linkedin.com/in/hazratali9/" target="blank">Hazrat Ali</a></span>.<br />I am currently pursuing BSC in CSE. I want to be a Software Engineer in near future.
