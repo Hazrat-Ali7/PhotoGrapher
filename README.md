@@ -1,6 +1,6 @@
 # PhotoGrapher 
 
-# Live Site Link :https://hazrat-ali-photographer.netlify.app/
+# Live Site Link :https://hazrat-ali-photographer.netlify/
 
 # Following things used to make this project
 
