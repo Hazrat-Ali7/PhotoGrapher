@@ -7,7 +7,7 @@ const Footer = () => {
     const year = today.getFullYear();
     return (
         <div className='bg-dark text-muted text-center'>
-            <p className='py-5'>Copyright @ 2023-All Right Reserved By Hazrat Ali</p>
+            <p className='py-5'>Copyright @ 2024-All Right Reserved By Hazrat Ali</p>
         </div>
     );
 };

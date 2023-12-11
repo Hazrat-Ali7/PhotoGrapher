@@ -18,10 +18,10 @@ const Service = (props) => {
             <Card className='shadow'>
                 <Card.Img variant="top" height={300} src={img} />
                 <Card.Body className='text-center'>
-                    <Card.Title className='text-danger'>{name}</Card.Title>
+                    <Card.Title className='text-primary'>{name}</Card.Title>
                     <h6>Price: ${price}</h6>
                     <Card.Text>{text}</Card.Text>
-                    <Button onClick={handleCheckOut} variant="danger">Book Now</Button>
+                    <Button onClick={handleCheckOut} variant="primary">Buy Now</Button>
                 </Card.Body>
             </Card>
         </Col>
