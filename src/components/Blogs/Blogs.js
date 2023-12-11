@@ -4,18 +4,18 @@ import { Accordion } from 'react-bootstrap';
 const Blogs = () => {
     return (
         <div className='container my-5'>
-            <h3 className='text-danger text-center my-4'>Answering Questions!!</h3>
+            <h3 className='text-primary text-center my-4'>Answering Questions!!</h3>
 
 
             <Accordion defaultActiveKey={['0']} alwaysOpen>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Difference between authorization and authentication?</Accordion.Header>
                     <Accordion.Body className='bg-light'>
-                        <p><span className='text-danger'>Authentication:</span> Authentication The process determines the identity of the user before disclosing sensitive information. This is crucial for systems or interfaces where the user's priority is to protect confidential information. In the process, the user makes a plausible claim about the identity of the individual (his or her) or entity.
+                        <p><span className='text-primary'>Authentication:</span> Authentication The process determines the identity of the user before disclosing sensitive information. This is crucial for systems or interfaces where the user's priority is to protect confidential information. In the process, the user makes a plausible claim about the identity of the individual (his or her) or entity.
                         Certificates or claims can be usernames, passwords, fingerprints, etc. Authentication and non-rejection, sort of issues are handled at the application level. The disqualification authentication process can significantly affect the availability of services.</p>
 
                         <p>
-                        <span className='text-danger'>Authorization:</span> Authorization strategy is used to determine the permissions granted to an authorized user. Simply put, it examines whether it allows the user to access certain resources. Authorization occurs after the authentication event, where the user's identity is confirmed before the user's access list is then determined by searching the table and entries stored in the database.
+                        <span className='text-primary'>Authorization:</span> Authorization strategy is used to determine the permissions granted to an authorized user. Simply put, it examines whether it allows the user to access certain resources. Authorization occurs after the authentication event, where the user's identity is confirmed before the user's access list is then determined by searching the table and entries stored in the database.
                         </p>
                     </Accordion.Body>
                 </Accordion.Item>

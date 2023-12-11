@@ -69,7 +69,7 @@ const SignUp = () => {
 
     return (
         <div className='container mt-5 py-4 bg-light'>
-            <h2 className='text-danger text-center mt-4'>Please Sign Up</h2>
+            <h2 className='text-primary text-center mt-4'>Please Sign Up</h2>
             <div className='d-flex justify-content-center'>
                 <Form onSubmit={handleCreateUser} className='w-50 '>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -88,8 +88,8 @@ const SignUp = () => {
                     </Form.Group>
 
                     <p>Already have an account? <Link to='/login'>Please Login</Link> </p>
-                    <p className='text-danger text-center'>{error1?.message}</p>
-                    <Button variant="danger" type="submit">Sign Up</Button>
+                    <p className='text-primary text-center'>{error1?.message}</p>
+                    <Button variant="primary" type="Submit">Sign Up</Button>
                 </Form>
 
             </div>

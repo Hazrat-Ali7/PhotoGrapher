@@ -5,7 +5,7 @@ import myself from '../../images/Myself.jpg'
 const About = () => {
     return (
         <div className='about'>
-            <h2 className='text-center text-danger my-3'>About Me</h2>
+            <h2 className='text-center text-primary my-3'>About Me</h2>
 
             <div className='d-flex justify-content-center '>
                 <img className='img-fluid rounded my-5 '  style={{width:"20rem"}} src={myself} alt="" />

@@ -17,7 +17,7 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" sticky='top' bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand as={Link} to="/"> <span className='me-2'>PhotoGrapher</span>
+                    <Navbar.Brand as={Link} to="/"> <span className='me-2'>Photographer Hazart</span>
                         <img src={logo} alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -33,7 +33,7 @@ const Header = () => {
                                 user ?
                                     <div >
                                         <span className='text-danger p-2 mt-2'>{user?.displayName}</span>
-                                        <button onClick={handleSignOut} className=' btn btn-danger  rounded '>Sign Out</button>
+                                        <button onClick={handleSignOut} className=' btn btn-primary  rounded '>Sign Out</button>
                                     </div>
                                     :
                                     <>

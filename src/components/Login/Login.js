@@ -41,11 +41,6 @@ const Login = () => {
 
     }
     
-   
-
-
-    
-
 
     const [
         signInWithEmailAndPassword,
@@ -78,7 +73,7 @@ const Login = () => {
 
     return (
         <div className='container mt-5 py-4 bg-light'>
-            <h2 className='text-danger text-center mt-4'>Please Login</h2>
+            <h2 className='text-primary text-center mt-4'>Please Login</h2>
 
             <div className='d-flex justify-content-center'>
 
@@ -87,7 +82,7 @@ const Login = () => {
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
                         <Form.Control onBlur={handleEmailBlur} type="email" placeholder="Enter email" required />
-                        <Form.Text className="text-danger">{emailError}</Form.Text>
+                        <Form.Text className="text-primary">{emailError}</Form.Text>
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -98,10 +93,10 @@ const Login = () => {
                     <p>Forget Password?<button onClick={handleForgetPassword}className='btn btn-link text-decoration-none'>Reset Your Password</button></p>
 
                     <p>Don't have account? <Link to='/signup'>Create New Account</Link> </p>
-                    <p className='text-center text-danger'>{error?.message}</p>
+                    <p className='text-center text-primary'>{error?.message}</p>
 
 
-                    <Button variant="danger" type="submit">Login</Button>
+                    <Button variant="primary" type="submit">Login</Button>
                 </Form>
 
 
